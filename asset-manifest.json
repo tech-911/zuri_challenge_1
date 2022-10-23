@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/zuri_challenge_1/static/css/main.5809ea9f.css",
-    "main.js": "/zuri_challenge_1/static/js/main.996f6b22.js",
-    "static/js/787.6f9402b0.chunk.js": "/zuri_challenge_1/static/js/787.6f9402b0.chunk.js",
-    "static/media/profile__image.svg": "/zuri_challenge_1/static/media/profile__image.8a8e5dc40917111e7c8cccfc90e3c897.svg",
-    "static/media/back2.svg": "/zuri_challenge_1/static/media/back2.ef0667842321f70b92ece6b332a6dc6f.svg",
-    "static/media/back.svg": "/zuri_challenge_1/static/media/back.f184bb80176c46833492d5d02db26c20.svg",
-    "index.html": "/zuri_challenge_1/index.html",
-    "main.5809ea9f.css.map": "/zuri_challenge_1/static/css/main.5809ea9f.css.map",
-    "main.996f6b22.js.map": "/zuri_challenge_1/static/js/main.996f6b22.js.map",
-    "787.6f9402b0.chunk.js.map": "/zuri_challenge_1/static/js/787.6f9402b0.chunk.js.map"
+    "main.css": "/tech-911/zuri_challenge_1/static/css/main.5809ea9f.css",
+    "main.js": "/tech-911/zuri_challenge_1/static/js/main.7eb3f779.js",
+    "static/js/787.6f9402b0.chunk.js": "/tech-911/zuri_challenge_1/static/js/787.6f9402b0.chunk.js",
+    "static/media/profile__image.svg": "/tech-911/zuri_challenge_1/static/media/profile__image.8a8e5dc40917111e7c8cccfc90e3c897.svg",
+    "static/media/back2.svg": "/tech-911/zuri_challenge_1/static/media/back2.ef0667842321f70b92ece6b332a6dc6f.svg",
+    "static/media/back.svg": "/tech-911/zuri_challenge_1/static/media/back.f184bb80176c46833492d5d02db26c20.svg",
+    "index.html": "/tech-911/zuri_challenge_1/index.html",
+    "main.5809ea9f.css.map": "/tech-911/zuri_challenge_1/static/css/main.5809ea9f.css.map",
+    "main.7eb3f779.js.map": "/tech-911/zuri_challenge_1/static/js/main.7eb3f779.js.map",
+    "787.6f9402b0.chunk.js.map": "/tech-911/zuri_challenge_1/static/js/787.6f9402b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5809ea9f.css",
-    "static/js/main.996f6b22.js"
+    "static/js/main.7eb3f779.js"
   ]
 }
