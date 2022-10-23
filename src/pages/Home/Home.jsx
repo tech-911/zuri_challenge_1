@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.scss";
-import Footer from "../components/footer/footer";
-import Profile from "../assets/images/profile__img.svg";
-import Slack from "../assets/images/slack.png";
-import Git from "../assets/images/Social icon.png";
-import Back from "../assets/images/back.svg";
-import Back2 from "../assets/images/back2.svg";
+import Footer from "../../components/footer/footer";
+import Profile from "../../assets/images/profile__image.svg";
+import Slack from "../../assets/images/slack.png";
+import Git from "../../assets/images/Social icon.png";
+import Back from "../../assets/images/back.svg";
+import Back2 from "../../assets/images/back2.svg";
+
 const data = [
   {
     name: "Twitter Link",
