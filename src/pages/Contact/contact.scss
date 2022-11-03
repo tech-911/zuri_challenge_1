@@ -1,0 +1,201 @@
+.contact-wrapper {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow-x: hidden;
+  @media screen and (max-width: 923px) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  @media screen and (max-width: 749px) {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  @media screen and (min-width: 1400px) {
+    padding-left: 350px !important;
+    padding-right: 350px !important;
+  }
+
+  .contact-header {
+    .head1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: -0.02em;
+      color: #101828;
+    }
+    .item1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #475467;
+    }
+  }
+  .form {
+    width: 100%;
+    margin-top: 50px;
+    .form-item1 {
+      @media screen and (max-width: 749px) {
+        flex-direction: column !important;
+      }
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .firstname,
+      .lastname {
+        @media screen and (max-width: 749px) {
+          width: 100%;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+        gap: 2;
+      }
+
+      .firstname {
+        label {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          color: #344054;
+          margin-bottom: 4px;
+        }
+        input {
+          box-sizing: border-box;
+          padding: 10px 14px;
+          background: #ffffff;
+          border: 1px solid #d0d5dd;
+          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+          border-radius: 8px;
+        }
+      }
+      .lastname {
+        @media screen and (max-width: 749px) {
+          margin-top: 20px;
+        }
+        label {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          color: #344054;
+          margin-bottom: 4px;
+        }
+        input {
+          box-sizing: border-box;
+          padding: 10px 14px;
+          background: #ffffff;
+          border: 1px solid #d0d5dd;
+          box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+          border-radius: 8px;
+        }
+      }
+    }
+
+    .email,
+    .message {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .email {
+      margin-top: 20px;
+      label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+        margin-bottom: 4px;
+      }
+      input {
+        box-sizing: border-box;
+        padding: 10px 14px;
+        background: #ffffff;
+        border: 1px solid #d0d5dd;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+      }
+    }
+
+    .message {
+      margin-top: 20px;
+      label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+        margin-bottom: 4px;
+      }
+      textarea {
+        box-sizing: border-box;
+        padding: 10px 14px;
+        background: #ffffff;
+        border: 1px solid #d0d5dd;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+      }
+      textarea::placeholder {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #667085;
+      }
+    }
+
+    .checkbox {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      input {
+        width: 15px;
+        height: 15px;
+      }
+      .span {
+        margin-left: 10px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #475467;
+      }
+    }
+    .send {
+      margin-top: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 20px;
+      gap: 8px;
+      width: 100%;
+      background: #1570ef;
+      border: 1px solid #1570ef;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+}

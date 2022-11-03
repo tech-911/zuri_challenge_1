@@ -6,6 +6,7 @@ import Slack from "../../assets/images/slack.png";
 import Git from "../../assets/images/Social icon.png";
 import Back from "../../assets/images/back.svg";
 import Back2 from "../../assets/images/back2.svg";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -61,6 +62,9 @@ const Home = () => {
               </a>
             );
           })}
+          <Link to="/contact" id="contact" className="button">
+            Contact Me
+          </Link>
         </div>
         <div className="contact">
           <img src={Slack} alt="slack" />
