@@ -1,0 +1,189 @@
+.nav-container {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .home-logo {
+  }
+  .nav-option-center {
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    @media screen and (min-width: 949px) {
+      width: 50%;
+    }
+    width: 60%;
+    * {
+      font-family: "Red Rose";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #434343;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      text-decoration: none;
+      &:hover {
+        color: #a02279;
+      }
+    }
+  }
+  .menu {
+    .connect {
+      @media screen and (max-width: 950px) {
+        display: none;
+      }
+      background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+      border-radius: 10px;
+      font-family: "Red Rose";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      padding: 15px 25px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .hamburger {
+      @media screen and (min-width: 949px) {
+        display: none;
+      }
+      font-size: 25px;
+      color: #a02279;
+      cursor: pointer;
+    }
+  }
+  .modal {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 120px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 2px 3px 58px -13px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 20px 30px;
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      li {
+        * {
+          text-decoration: none;
+          &:hover {
+            color: #a02279;
+          }
+        }
+      }
+      * {
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #434343;
+        margin-bottom: 15px;
+      }
+      .community {
+        * {
+          font-weight: 800;
+          color: #a02279;
+          &:hover {
+            color: #42032e;
+          }
+        }
+      }
+    }
+  }
+  .popup {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4040404d;
+    z-index: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .collect-wallet-modal {
+      @media screen and (max-width: 793px) {
+        width: 80% !important;
+      }
+      background-color: white;
+      width: 40%;
+      // height: 40%;
+      border-radius: 16px;
+      .item1 {
+        // padding-top: 5px;
+        // padding-bottom: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(77, 77, 77, 0.164);
+        p {
+          font-family: "Red Rose";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          color: #333333;
+        }
+        .close {
+          cursor: pointer;
+        }
+      }
+    }
+    .wallet-body {
+      padding-left: 35px;
+      padding-right: 35px;
+      display: flex;
+      flex-direction: column;
+      p {
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+      }
+      .wallet1 {
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 20px;
+        background: #f8f9fa;
+        border: 1px solid #cfd8dc;
+        border-radius: 12px;
+        .wallet1-item1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          img {
+            margin-right: 10px;
+          }
+        }
+        .wallt1-arrow {
+          color: #959da6;
+        }
+      }
+    }
+  }
+}

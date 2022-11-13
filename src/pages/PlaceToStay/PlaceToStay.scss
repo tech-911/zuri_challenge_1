@@ -1,0 +1,116 @@
+.placetostay {
+  padding-top: 60px;
+  .subnav {
+    @media screen and (max-width: 750px) {
+      flex-direction: row-reverse;
+    }
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .item1 {
+      @media screen and (max-width: 750px) {
+        display: none;
+      }
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .item2 {
+      @media screen and (max-width: 750px) {
+        display: none;
+      }
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #b4b4b4;
+      border-radius: 8px;
+      padding: 10px 10px;
+      margin-left: 30px;
+      p {
+        margin: 0px;
+      }
+    }
+    .option-icon {
+      @media screen and (min-width: 750px) {
+        display: none;
+      }
+      font-size: 30px;
+      color: #a02279;
+      cursor: pointer;
+    }
+  }
+  .optionModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .item1 {
+      //   @media screen and (max-width: 750px) {
+      //     display: none;
+      //   }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      p {
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #434343;
+      }
+    }
+    .item2 {
+      //   @media screen and (max-width: 750px) {
+      //     display: none;
+      //   }
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #b4b4b4;
+      border-radius: 8px;
+      padding: 10px 10px;
+      margin-left: 30px;
+      p {
+        margin: 0px;
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #434343;
+      }
+    }
+  }
+  .section1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .widget {
+      margin-top: 50px;
+      @media screen and (max-width: 1190px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      @media screen and (max-width: 630px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      width: 100%;
+      gap: 20px;
+    }
+  }
+}

@@ -1,37 +1,113 @@
 .footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 100vw;
   .body {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    width: 100%;
+    // margin-top: 20px;
+    // padding-left: 50px;
+    // padding-right: 50px;
   }
-  .footer-content {
-    @media (max-width: 700px) {
-      flex-direction: column;
-      align-items: flex-start;
+  .footer-content-container {
+    background-color: #1d1d1e;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      @media screen and (max-width: 840px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .logo {
+        @media screen and (max-width: 840px) {
+          margin-bottom: 50px;
+        }
+        grid-column: span 2 / span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .footer-socials {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          margin-top: 120px;
+           @media screen and (max-width: 840px) {
+           margin-top: 80px;
+        }
+          * {
+            color: white;
+            font-size: 20px;
+            margin-right: 25px;
+          }
+        }
+      }
+
+      .community,
+      .places,
+      .about {
+        // margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        * {
+          margin-bottom: 5px;
+        }
+        .list {
+          list-style-type: none;
+          margin-top: 0px !important;
+          padding: 0px;
+          .head-list {
+            font-family: "Red Rose";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #ffffff;
+            margin-bottom: 20px !important;
+          }
+          li {
+            font-family: "Red Rose";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+            color: #f1f3f9;
+          }
+        }
+      }
+  
+      .places {
+        @media screen and (max-width: 460px) {
+          justify-self: end;
+        }
+      }
+      .about {
+        @media screen and (max-width: 840px) {
+          margin-top: 20px;
+        }
+      }
     }
-    width: 100%;
-    border-top: 1px solid #eaecf0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    p {
-      font-family: "Inter";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center;
-      color: #667085;
+    .copy-write {
+      margin-top: 25px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      .copy {
+        color: white;
+      }
+      p {
+        color: #f7f7f7;
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        margin-left: 8px;
+      }
     }
   }
 }
